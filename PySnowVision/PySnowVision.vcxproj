@@ -78,10 +78,11 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\opencv\build\include;D:\opencv\build\include\opencv2;C:\Users\kylem\Desktop\SnowVision\PySnowVision\include;D:\pybind11-2.10.0\build\mock_install\include;C:\Users\kylem\AppData\Local\Programs\Python\Python36\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\opencv\build\x64\vc15\lib;C:\Users\kylem\AppData\Local\Programs\Python\Python36\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\opencv\build\include;D:\opencv\build\include\opencv2;C:\Users\Liaochikon\Desktop\SnowVision\PySnowVision\include;D:\pybind11-2.10.0\build\mock_install\include;C:\Users\Liaochikon\AppData\Local\Programs\Python\Python36\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\opencv\build\x64\vc15\lib;C:\Users\Liaochikon\AppData\Local\Programs\Python\Python36\libs;$(LibraryPath)</LibraryPath>
     <TargetName>snowvision</TargetName>
-    <OutDir>C:\Users\kylem\Desktop\Snow_Watch</OutDir>
+    <OutDir>C:\Users\Liaochikon\Desktop\Snow_Watch</OutDir>
+    <TargetExt>.pyd</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
